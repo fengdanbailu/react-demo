@@ -1,12 +1,21 @@
+/*
+ * @Author: gm.chen
+ * @Date: 2020-09-14 20:23:14
+ * @LastEditors: gm.chen
+ * @LastEditTime: 2021-03-30 23:51:00
+ * @Description: file content
+ * @FilePath: /react-demo/src/index.js
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './App'
 import * as serviceWorker from './serviceWorker';
+import './index.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
